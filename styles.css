@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #f4f4f4, #eaeaea);
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: 10px auto;
+    /* border: 1px solid lightgray; */
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.todo {
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.myButton {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.listItem {
+    /* border: 1px solid black; */
+    padding: 8px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    background-color: grey;
+    margin: 2px;
+}
+
+.listItem:hover {
+    background-color: lightgray;
+}
+
+.dl-btn {
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    height: 34px;
+    width: 30px;
+    background-color: red;
+}
+
+.dl-btn:hover {
+    background-color: pink;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    color: darkgray;
+}
+
